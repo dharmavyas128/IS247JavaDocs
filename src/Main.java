@@ -24,7 +24,7 @@
              * @param args stores incoming the command line arg for the program
              */
             public static void main(String[] args) {
-                Person person = new Person("Sam");
+                Person person = new Person("samual");
                 System.out.println(person.getName());
 
             }
