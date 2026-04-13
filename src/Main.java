@@ -1,13 +1,11 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-
-        /**
-         * This a main class to test Person.java
-         *
-         * @author Shiva Sharma
-         * @version 1.0
-         * @see Person
-         */
+ /**
+  * This a main class to test Person.java
+  * and javadocs
+  * @author     Drew Belloff, Dharma Vyas, kamron Mason
+  * @version    1.0
+  * Date:       4/12/2026
+  * Assignment: Group Task 5
+  */
         public class Main {
 
             //https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
@@ -24,7 +22,7 @@
              * @param args stores incoming the command line arg for the program
              */
             public static void main(String[] args) {
-                Person person = new Person("samual");
+                Person person = new Person("Samuel");
                 System.out.println(person.getName());
 
             }
